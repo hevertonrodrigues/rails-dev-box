@@ -121,6 +121,11 @@ package { 'nodejs':
   ensure => installed
 }
 
+# Imagemagick
+package { 'imagemagick':
+  ensure => installed
+}
+
 # --- Ruby ---------------------------------------------------------------------
 
 exec { 'install_rvm':
